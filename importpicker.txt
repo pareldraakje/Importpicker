@@ -1,0 +1,28 @@
+"en-GB"
+
+
+group DSAG "Import Picker"
+
+"Dependency 1" "teleport_importv2.c16"
+"Dependency 2" "blnk.c16"
+"Agent Animation Gallery" "teleport_importv2"
+"Agent Description" "This agent allows you to pick the spot imported creatures will go to."
+"Agent Animation File" "teleport_importv2.c16"
+"Agent Animation Gallery" "teleport_importv2"
+"Web URL" "http://creaturescaves.com/"
+"Web Label" "Pilla from Creatures Caves"
+"Remove script" "enum 2 24 36431\n	kill targ\nnext\n\nscrx 1 2 32 1003\n\nject \"ds gui - creaturemenu.cos\" 7"
+
+"Script Count" 1
+"Script 1" @ "Import Picker script.cos"
+
+"Agent Type" 0
+"Dependency Count" 2
+"Dependency Category 1" 2
+"Dependency Category 2" 2
+"Agent Sprite First Image" 0
+
+
+
+inline FILE "teleport_importv2.c16" "teleport_importv2.c16"
+
